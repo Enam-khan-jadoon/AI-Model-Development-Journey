@@ -13,5 +13,5 @@ print(result)
 
 # List Comprehension with if else statement
 marks = [35, 75, 45, 90, 25]
-result = ["Pass" if number>=50 else "Fail" for number in marks]
+result = ["Pass" if mark>=50 else "Fail" for mark in marks]
 print(result)
